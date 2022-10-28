@@ -1,0 +1,28 @@
+//Permitir o cadastro da peça somente se ela pesar mais de 100g.
+//Número de peças na lista é de 10 unidades, caso tenha 10 ou mais peças,
+//usuário receberá mensagem:lista de peças está lotada.
+//Validar se o nome da peça possui mais de 3 caracteres.
+
+var ListaDePecas = ["Filtro de Ar", "Amortecedor", "Disco de Freio"]
+
+if (ListaDePecas.length < 10){
+    console.log("É possível cadastrar mais peças.")
+} else {
+    console.log ("Não há mais espaço na lista.")
+}
+
+let PesoDaPeca = 50
+
+if (PesoDaPeca < 100){
+    console.log("A peça precita ter, no mínimo, 100g.")
+}else{
+    console.log("A peça possui o tamanho adequado.")
+}
+
+let NomeDaPeca = "Caixa de Câmbio"
+
+if (NomeDaPeca.length > 2){
+    console.log ("O nome da peça está adequado.")
+}else{
+    console.log("O nome da peça deve ter mais que 3 caracteres.")
+}
