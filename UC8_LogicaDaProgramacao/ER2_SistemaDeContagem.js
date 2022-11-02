@@ -33,3 +33,10 @@ while (Contador <= NumeroDeAlunos){
 
     Contador++ 
 }
+
+// _____________________________________________________________ //
+
+let NomeDosCavaleiros = ["Artur", "Tristam", "Perceval", "Lancelot", "Constantine", "Galahad", "Ivain"]
+for (let nome of NomeDosCavaleiros){
+    console.log(`Este é Sir ${nome}`)
+}
