@@ -40,3 +40,14 @@ let NomeDosCavaleiros = ["Artur", "Tristam", "Perceval", "Lancelot", "Constantin
 for (let nome of NomeDosCavaleiros){
     console.log(`Este é Sir ${nome}`)
 }
+
+// _____________________________________________________________ //
+
+let Idade = 33
+let Ingresso = true // Atribuindo o valor "true" a variável "Ingresso" //
+
+if(Idade >= 18 && Ingresso == true){ // Comparando se o valor dentro da variável "ingresso" é realmente "true" //
+    console.log("Seja bem-vindo!")
+}else{
+    console.log("Você não tem permissão para entrar.")
+}
