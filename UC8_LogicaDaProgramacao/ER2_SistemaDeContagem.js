@@ -51,3 +51,8 @@ if(Idade >= 18 && Ingresso == true){ // Comparando se o valor dentro da variáve
 }else{
     console.log("Você não tem permissão para entrar.")
 }
+
+/*
+E - CONJUNÇÃO COORDENATIVA ADITIVA;
+OU - CONJUNÇÃO COORDENATIVA ALTERNATIVA.
+*/
