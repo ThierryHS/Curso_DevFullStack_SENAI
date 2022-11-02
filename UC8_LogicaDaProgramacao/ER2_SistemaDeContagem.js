@@ -19,7 +19,7 @@ for (let Contador = 0; Contador <= NumeroDeAlunos; Contador++){
         console.log("O número atual é ZERO.")
     }
     
-    // OPÇÃO 01 - CONCATENAR.. //
+    // OPÇÃO 01 - CONCATENAR. //
     else if (Contador % 2 == 0){
         console.log("O número " + Contador + " é PAR.")
     }
